@@ -152,7 +152,7 @@ export default TodoApp;
 
 
 ### Create `AddTodo` component
-Inside the render method of `TodoApp`, you can see that we use a component called `AddTodo`. Create a file `add-todo.tsx for the component. This component will contain a `form` element that the user will use to add todos. The typical pattern for implementing form elements in React is called `controlled components`. We’ll explore that in more detail in a subsequent milestone. For now, take note of the component’s state and the the input element’s attributes.
+Inside the render method of `TodoApp`, you can see that we use a component called `AddTodo`. Create a file `add-todo.tsx` for the component. This component will contain a `form` element that the user will use to add todos. The typical pattern for implementing form elements in React is called `controlled components`. We’ll explore that in more detail in a subsequent milestone. For now, take note of the component’s state and the the input element’s attributes.
 
 ```jsx
 import React, { Component } from 'react';
