@@ -3,7 +3,7 @@ import Title from './title';
 import AddTodo from './add-todo';
 import TodoList from './todo-list';
 
-class TodoApp extends Component <{}, { todos: Array<any> }> {
+class TodoApp extends Component <{}, {}> {
   constructor(props: any) {
     super(props);
 

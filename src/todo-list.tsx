@@ -1,7 +1,7 @@
 import React from 'react';
 import Todo from './todo';
 
-const TodoList = ({ todos, handleRemove }) => {
+const TodoList = (todos: Array<any>, handleRemove: (id: number) => void) => {
   function renderList() {
     // check if there are todos -- provide useful message if no todos left
     if (todos.length > 0) {
